@@ -1,0 +1,66 @@
+1. What is Recusrsion?
+    Recursion occurs when a function calls itself
+    Any loop can be written instead with recursion; any recursion can be written instead with a loop
+    Recursion is often useful in graph and tree problems
+
+2. What are graphs?
+    Graphs are like trees, except they can contain loops (“cycles”), and can be non-directed
+    Graphs are useful for (among other things) tracking connections for a set of data, describing dependencies and finding efficient ways to get from one state to another.
+3. Example of graph
+     fligght routes
+
+4. Fill in the runtimes for the following actions for the table below:
+
+
+Data Structure  Index   Search  Add-R   Add-L   Pop-L   Pop-R
+Python List (Array) O(1)    O(n)    O(1)    O(n)    O(n)    O(1)
+Linked List O(n)    O(n)    O(1)    O(1)    O(1)    O(n)
+Doubly-Linked List  O(n)    O(n)    O(1)    O(1)    O(1)    O(1)
+Queue (as Array)    -   -   O(1)    -   O(n)    -
+Queue (as LL or DLL)    -   -   O(1)    -   O(1)    -
+Stack (as Array, LL, or DLL)    -   -   O(1)    -   -   O(1)
+Deque (as DLL)  -   -   O(1)    O(1)    O(1)    O(1)
+
+
+
+5. Fill in Runtime and Memory:
+
+The answers for Dictionary have been provided; you should fill in the rest:
+
+Data Structure          Get     Add     Delete  Iterate  Memory
+Dictionary (Hash Map)   O(1)    O(1)    O(1)    O(n)     medium
+Set (Hash Map)          O(1)    O(1)    O(1)    O(n)        medium
+Binary Search Tree      O(log n)O(n)    O(n)    O(1)        less
+tree                    O(n)     O(1)   O(1)    O(1)        less
+
+
+Sorting
+
+Describe in words how the Bubble Sort algorithm works.
+        The big numbers bubble to the top!
+        After the first pass through the list, the biggest number will be all the way to the right. After the second pass, the second highest number will be second from the right, and so on.
+
+
+
+Describe in words how the Merge Sort algorithm works.
+         Merge sort work on divide and conquer algorith
+         Divide the unsorted list into n sublists, each containing 1 element (a list of 1 element is considered sorted).
+        Repeatedly merge sublists to produce new sorted sublists until there is only 1 sublist remaining. This will be the sorted list.
+
+Describe in words how the Quick Sort algorithm works.
+
+        Operates on the idea of a partition.
+
+        That is: there is a ‘pivot’ and we can move all the numbers lower than the pivot number to the beginning of the list and move all the numbers bigger than the pivot to the right of the pivot number.
+
+
+Git Branching
+
+
+
+Give an instance when you would use git branching.
+To test or work on the idea without messing the main branch
+
+What is a pull request?
+
+when you want to contribute your code, its a request to the project owner to check your branch and merge it.
